@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - generates a random number and tells if it is positive, nevative or zero
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
