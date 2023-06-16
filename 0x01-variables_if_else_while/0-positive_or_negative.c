@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - generates a random number and tells if it is positive, nevative or zero
+ */
 int main(void)
 {
 	int n;
