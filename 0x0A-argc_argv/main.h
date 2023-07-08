@@ -4,6 +4,7 @@
 int _putchar(char c);
 int main(int argc __attribute__((unused)), char *argv[]);
 #include <stdio.h>
+#include <stdlib.h>
 
 
 
