@@ -40,6 +40,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptrConcat[length++] = s2[i];
 	}
-	ptrConcat[n] = '\n';
+	ptrConcat[length] = '\n';
 	return (ptrConcat);
 }
