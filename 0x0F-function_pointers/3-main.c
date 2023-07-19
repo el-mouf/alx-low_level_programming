@@ -26,15 +26,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if (*operation == '/' && number2 == 0)
+	if ((*operation == '/' && number2 == 0) || (*operation == '%' && number2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
-	}
-	if (*operation == '%' && number2 == 0)
-	{
-		printf("Error\n");
-		exit(101);
 	}
 	printf("%d\n", get_op_func(operation)(number1, number2));
 	return (0);
