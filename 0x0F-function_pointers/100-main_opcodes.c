@@ -15,11 +15,11 @@ void print_bytes(char *array, int bytes)
 	{
 		if (i == bytes - 1)
 		{
-			printf("%.2x\n", array[i]);
+			printf("%02hhx\n", array[i]);
 		}
 		else
 		{
-			printf("%.2x ", array[i]);
+			printf("%02hhx ", array[i]);
 		}
 	}
 }
