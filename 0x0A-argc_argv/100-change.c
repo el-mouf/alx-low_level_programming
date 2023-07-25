@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int cents, i, change_count, num;
 	int coins[] = {25, 10, 5, 2, 1};
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
