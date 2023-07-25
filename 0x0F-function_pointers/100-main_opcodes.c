@@ -3,23 +3,23 @@
 
 /**
  * print_bytes - prints the bytes
- * @arr: pointer to character
+ * @array: pointer to character
  * @bytes: number of bytes to be printed
  */
 
-void print_bytes(char *arr, int bytes)
+void print_bytes(char *array, int bytes)
 {
 	int i;
 
-	for (i = 0; i< bytes; i++)
+	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
 		{
-			printf("%02hhx\n", arr[i]);
+			printf("%.2x\n", array[i]);
 		}
 		else
 		{
-			printf("%02hhx ", arr[i]);
+			printf("%.2x ", array[i]);
 		}
 	}
 }
@@ -34,7 +34,7 @@ void print_bytes(char *arr, int bytes)
 int main(int argc, char *argv[])
 {
 	int bytes;
-	char *arr;
+	char *array;
 
 	if (argc != 2)
 	{
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	arr = (char *)main;
-	print_bytes(arr, bytes);
+	array = (char *)main;
+	print_bytes(array, bytes);
 	return (0);
 }
