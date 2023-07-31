@@ -3,7 +3,7 @@
 /**
  * add_nodeint - function that adds a node
  * at the beginning of a list
- * @h: a pointer to the head of the linked
+ * @head: a double pointer to the head of the linked
  * list
  * @n: value of the new node
  * Return: return the address of the new
